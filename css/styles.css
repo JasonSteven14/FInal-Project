@@ -5,11 +5,31 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  padding: 50px 0px 0px 0px;
   z-index: 0; }
 
 .navbar-dark {
   background: #412b75; }
+
+#input-search-bar {
+  width: 400px;
+  height: 60px;
+  font-size: 25px;
+  position: absolute; }
+
+#input-search-btn {
+  margin-left: 338px;
+  background: white;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  padding: 0px; }
+
+#form-group {
+  margin-top: 3rem; }
+
+#input-search-btn span {
+  font-size: 23px;
+  color: #C2C0C1; }
 
 .nav-item {
   list-style-type: none;
@@ -20,6 +40,9 @@ body {
   list-style-type: none;
   text-decoration: none;
   color: floralwhite; }
+
+.nav-link span {
+  margin-left: 40%; }
 
 footer {
   margin: 0px auto;
