@@ -1,0 +1,50 @@
+$first-color:#412b75;
+$second-color:#224b75;
+$third-color:#386150;
+$fourth-color:#58b09c;
+$fifth-color: #c5e5de;
+
+
+@mixin no-select {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none; 
+         -moz-user-select: none;
+          -ms-user-select: none; 
+              user-select: none; 
+}
+
+@mixin no-styles {
+    list-style-type: none;
+    text-decoration: none;
+    color:floralwhite;
+    
+}
+
+@mixin margin-zero($pad-up-dn, $pad-left-right) {
+    margin: 0px auto;
+    padding: $pad-up-dn $pad-left-right;
+}
+
+body{
+    @include no-select();
+    padding:50px 0px 0px 0px;
+    z-index: 0;
+}
+
+.navbar-dark{
+    background: $first-color;
+}
+
+.nav-item {
+    @include no-styles()
+}
+
+.nav-link {
+    @include no-styles()
+}
+
+footer {
+    $second-color:#224b75;
+    @include margin-zero(20px, 0px)
+}
