@@ -56,6 +56,20 @@ body{
     height: 305px;
     border-radius:5px; 
 }
+#itemsBar{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#itemsBar li{
+    height: 75px;
+    width: 75px;
+    background: #C2C0C1 !important;
+    margin: 5px;
+    @include no-styles();
+}
 
 
 #input-search-btn span{
@@ -70,7 +84,7 @@ body{
 }
 
 
-footer {
-    $second-color:#224b75;
-    @include margin-zero(20px, 0px)
+footer div{
+    background: $first-color;
+    height: 300px;
 }
