@@ -37,24 +37,21 @@ body{
 
 
 #input-search-bar{
-    width: 400px;
     height: 60px;
-    font-size: 25px;
-    position: absolute;
+    font-size: 25px; 
 }
 
 #input-search-btn{
-    margin-left: 338px;
-    background: white;
-    position: absolute;
-    width: 60px;
     height: 60px;
-    padding: 0px;
+    margin-left: -55px;
+    padding-right: 2.75rem;
 }
 
-#form-group{
-    margin-top: 3rem;
+#search-form{
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
+
 
 #input-search-btn span{
     font-size: 23px;
@@ -62,16 +59,11 @@ body{
 }
 
 .nav-item {
-    @include no-styles()
+    @include no-styles();
+    text-align: center;
+    font-size:20px;
 }
 
-.nav-link {
-    @include no-styles()
-}
-
-.nav-link span{
-    margin-left: 40%;
-}
 
 footer {
     $second-color:#224b75;
