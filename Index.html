@@ -18,7 +18,7 @@
         <div class="container">
             <div class="row">
                 <a class="navbar-brand col-sm-2 d-none d-xl-block" href="#">
-                    <img id="img-logo" src="img/logo.png" height="150">
+                    <img id="img-logo" src="img/logo.png" height="100">
                 </a>
                 <div class="col-sm-6 col-10" style="align-self: center">
                     <form id="search-form">
@@ -77,46 +77,81 @@
         </nav>
     </div>
     <div class="container">
-        <div class="sidebar col-3">
-            <ul class="list-group active">
-                <li class="list-group-item">
-                    <a><span class="fa fa-angle-right "></span>
-                        home
-                    </a>
-                </li>
-                <li class="list-group-item">
-                    <a><span class="fa fa-angle-right "></span>
-                        Favorite
-                    </a>
-                </li>
-                <li class="list-group-item">
-                    <a><span class="fa fa-angle-right "></span>
-                        Basket
-                    </a>
-                </li>
-                <li class="list-group-item">
-                    <a><span class="fa fa-angle-right "></span>
-                        Configuration
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="products col-6">
-            <div class="container">
-                <div class="row">
+        <div class="row">
+            <div class="sidebar col-3">
+                <ul class="list-group active">
+                    <li class="list-group-item">
+                        <a><span class="fa fa-angle-right "></span>
+                            home
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a><span class="fa fa-angle-right "></span>
+                            Favorite
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a><span class="fa fa-angle-right "></span>
+                            Basket
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a><span class="fa fa-angle-right "></span>
+                            Configuration
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6" id="offers">
+                <div class="container">
                     <div id="carousel-offers" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="/img/Products/case.jpg">
+                            </div>
                             <div class="carousel-item">
-                                <img class="d-block img-fluid" src="/img/Products/case.jpg">
+                                <img class="d-block w-100" src="/img/Products/monitor.jpg">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="/img/Products/mouse.jpg">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="/img/Products/ssd.jpg">
                             </div>
                         </div>
+                        <ol class="carousel-indicators">
+                                <li data-target="#carousel-offers" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-offers" data-slide-to="1"></li>
+                                <li data-target="#carousel-offers" data-slide-to="2"></li>
+                            </ol>
+                            <a class="carousel-control-prev" href="#carousel-offers" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel-offers" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                            <button class="btn btn-danger btn-sm" id="carouselOffersButton" style="margin-top:-60px; position: relative">
+                                <span class="fa fa-pause"></span>
+                            </button>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <ul class="list-grup">
+                            <li class="list-item">
+
+                            </li>
+                            <li class="list-item">
+                                
+                                </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="chat-sidebar col-3">
-            <div class="container">
+            <div class="chat-sidebar col-3">
+                <div class="container">
 
+                </div>
             </div>
         </div>
     </div>

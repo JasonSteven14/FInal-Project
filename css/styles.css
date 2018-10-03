@@ -23,6 +23,11 @@ body {
   flex-direction: row;
   flex-wrap: nowrap; }
 
+.carousel-item img {
+  width: 510px;
+  height: 305px;
+  border-radius: 5px; }
+
 #input-search-btn span {
   font-size: 23px;
   color: #C2C0C1; }
