@@ -1,4 +1,3 @@
-console.log('antes')
 $(document).ready( function(){
     $('#carouselOffersButton').click(function(){
         if($('#carouselOffersButton').children('span').hasClass('fa-pause')){
@@ -13,4 +12,3 @@ $(document).ready( function(){
         }
     })
 })
-console.log('despues')
