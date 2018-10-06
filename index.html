@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-    <link rel="shortcut icon" href="">
     <link rel="php" href="/php/main.php">
     <link rel="stylesheet" type="text/css" href="/css/styles.css" />
 </head>
@@ -83,7 +82,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="sidebar col-3">
+            <div class="sidebar col-3 d-none d-xl-block">
                 <ul class="list-group active">
                     <li class="list-group-item">
                         <a><span class="fa fa-angle-right" href="#"></span>
@@ -127,7 +126,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-6" id="offers">
+            <div class="col-6 col-sm" style="max-width:100%;" id="offers">
                 <div class="container">
                     <div id="carousel-offers" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
@@ -181,7 +180,7 @@
                 </div>
                 <div class="container">
                     <div class="row" style="margin-top:30px; margin-bottom: 30px">
-                        <div class="col-6">
+                        <div class="col-6" >
                             <a id="card-product" href="#">
                                 <div class="card" id="card-size" style="margin-top:30px; margin-bottom: 30px">
                                     <div class="card-body" style="padding: 0">
@@ -189,7 +188,7 @@
                                     </div>
                                     <div class="card-header">
                                         <h5 class="card-title">Lorem ipsum dolor</h5>
-                                        <p class="card-text">
+                                        <p class="card-text d-none d-md-block">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                             sed do eiusmod tempor incididunt ut labore et dolore
                                             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -204,7 +203,7 @@
                                     </div>
                                     <div class="card-header">
                                         <h5 class="card-title">Lorem ipsum dolor</h5>
-                                        <p class="card-text">
+                                        <p class="card-text d-none d-md-block">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                             sed do eiusmod tempor incididunt ut labore et dolore
                                             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -219,7 +218,7 @@
                                     </div>
                                     <div class="card-header">
                                         <h5 class="card-title">Lorem ipsum dolor</h5>
-                                        <p class="card-text">
+                                        <p class="card-text d-none d-md-block">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                             sed do eiusmod tempor incididunt ut labore et dolore
                                             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -235,7 +234,7 @@
                                     </div>
                                     <div class="card-header">
                                         <h5 class="card-title">Lorem ipsum dolor</h5>
-                                        <p class="card-text">
+                                        <p class="card-text d-none d-md-block">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                             sed do eiusmod tempor incididunt ut labore et dolore
                                             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -252,7 +251,7 @@
                                     </div>
                                     <div class="card-header">
                                         <h5 class="card-title">Lorem ipsum dolor</h5>
-                                        <p class="card-text">
+                                        <p class="card-text d-none d-md-block">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                             sed do eiusmod tempor incididunt ut labore et dolore
                                             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -267,7 +266,7 @@
                                     </div>
                                     <div class="card-header">
                                         <h5 class="card-title">Lorem ipsum dolor</h5>
-                                        <p class="card-text">
+                                        <p class="card-text d-none d-md-block">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                             sed do eiusmod tempor incididunt ut labore et dolore
                                             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -282,7 +281,7 @@
                                     </div>
                                     <div class="card-header">
                                         <h5 class="card-title">Lorem ipsum dolor</h5>
-                                        <p class="card-text">
+                                        <p class="card-text d-none d-md-block">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                             sed do eiusmod tempor incididunt ut labore et dolore
                                             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -297,7 +296,7 @@
                                     </div>
                                     <div class="card-header">
                                         <h5 class="card-title">Lorem ipsum dolor</h5>
-                                        <p class="card-text">
+                                        <p class="card-text d-none d-md-block">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                             sed do eiusmod tempor incididunt ut labore et dolore
                                             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -309,7 +308,7 @@
                     </div>
                 </div>
             </div>
-            <div class="chat-sidebar col-3">
+            <div class="chat-sidebar col-3 d-none d-xl-block">
                 <div class="container">
 
                 </div>
@@ -318,6 +317,31 @@
     </div>
     <footer>
         <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <h5>PRODUCT</h5>
+                    <div class="d-flex flex-column bd-highlight mb-3">
+                        <div class="p-2 bd-highlight">Flex item 1</div>
+                        <div class="p-2 bd-highlight">Flex item 2</div>
+                        <div class="p-2 bd-highlight">Flex item 3</div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h5>COMPANY</h5>
+                    <p></p>
+                </div>
+                <div class="col-3">
+                    <h5>LEARN MORE</h5>
+                    <p></p>
+                </div>
+                <div class="col-3">
+                    <h5>CONECCT WITH US</h5>
+                    <p></p>
+                </div>
+            </div>
+            <div>
+
+            </div>
 
         </div>
     </footer>
