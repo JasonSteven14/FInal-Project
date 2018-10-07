@@ -1,5 +1,5 @@
 #particles-js {
-  height: 625px;
+  height: 100vh !important;
   width: 100%;
   z-index: -1;
   background: #070211;
