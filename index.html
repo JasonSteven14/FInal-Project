@@ -73,11 +73,13 @@
     </nav>
 
     <nav aria-label="breadcrumb">
-        <ol class="breadcrumb" style="background: none">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item"><a href="#">Library</a></li>
-            <li class="breadcrumb-item"><a></a>Data</li>
-        </ol>
+        <div class="container">
+            <ol class="breadcrumb" style="background: none">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                <li class="breadcrumb-item"><a></a>Data</li>
+            </ol>
+        </div>
     </nav>
 
     <div class="container">
@@ -311,9 +313,45 @@
             <div class="chat-sidebar col-3 d-none d-xl-block">
                 <div class="container">
                     <ul class="list-group">
-                        <li class="list-group-item"> <img src="/img/user.png" style="height:50px;" alt=""></li>
-                        <li class="list-group-item"><input class="form-control"><a><span class="fa fa-bars"></span></a></li>
-                        <li class="list-group-item"></li>
+                        <li class="list-group-item" style="display:flex; justify-content: space-between">
+                            <img src="/img/user.png" style="height:35px;" alt="">
+                            <a style="margin-top: 6px;"><span class="fa fa-bars"></span></a>
+                        </li>
+                        <li class="list-group-item" style="display:flex;">
+                            <input class="form-control" placeholder="Search...">
+                        </li>
+                    </ul>
+                    <ul class="list-group" style="overflow: auto; max-height: 456px; min-height: 456px">
+                        <li class="list-group-item">
+                            <div class="media">
+                                <img src="/img/user.png" style="height:50px;" alt="">
+                                <div class="media-body" style="margin-left: 10px; margin-top: 2px;">
+                                    <p style="font-size:12px; margin: -1px"><strong>Name of contacts</strong> </p>
+                                    <span class="data-toogler" style="font-size:10px;">
+                                        Last paragraph on chat...</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <img src="/img/user.png" style="height:50px;" alt="">
+                                <div class="media-body" style="margin-left: 10px; margin-top: 2px;">
+                                    <p style="font-size:12px; margin: -1px"><strong>Name of contacts</strong> </p>
+                                    <span class="data-toogler" style="font-size:10px;">
+                                        Last paragraph on chat...</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <img src="/img/user.png" style="height:50px;" alt="">
+                                <div class="media-body" style="margin-left: 10px; margin-top: 2px;">
+                                    <p style="font-size:12px; margin: -1px"><strong>Name of contacts</strong> </p>
+                                    <span class="data-toogler" style="font-size:10px;">
+                                        Last paragraph on chat...</span>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>

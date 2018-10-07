@@ -1,5 +1,5 @@
 #particles-js {
-  height: 100vh !important;
+  height: 100vh;
   width: 100%;
   z-index: -1;
   background: #070211;
@@ -12,7 +12,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background: none;
+  background: #9074b1;
   z-index: 0; }
 
 .navbar-dark {
